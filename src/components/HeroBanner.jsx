@@ -35,7 +35,7 @@ export default function HeroBanner() {
 		<div className="bg-secondaryColor pt-20 pb-7">
 			<main className="container w-full mx-auto flex items-center md:gap-7 lg:gap-10 flex-col md:flex-row px-4">
 				<div className="textContent">
-					<h1 className="text-quartenaryColor font-semibold font-Lexend text-2xl sm:text-2xl md:text-3xl lg:text-[2.625rem] md:text-left text-center lg:max-w-[25ch]">Soluções em informática e segurança eletrônica.</h1>
+					<h1 className="text-quartenaryColor font-semibold font-Lexend text-2xl sm:text-2xl md:text-3xl lg:text-5xl md:text-left text-center lg:max-w-[20ch]">Soluções em informática e segurança eletrônica.</h1>
 					<p className="estilo-paragrafo text-center md:text-left md:text-lg  text-quartenaryColor mt-3 mb-6 lg:max-w-[45ch]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae cum tenetur totam</p>
 					<button className="btn-principal px-3 md:px-4 py-1 md:py-2 block sm:w-auto text-center mb-10 md:mb-0 mx-auto md:mx-0">Saiba Mais
 					</button>
