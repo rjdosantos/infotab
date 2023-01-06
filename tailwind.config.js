@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./node_modules/flowbite-react/**/*.js",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx}",
-    "./public/**/*.html",
+    './src/**/*.{html,js}',
+    './node_modules/tw-elements/dist/js/**/*.js'
   ],
   theme: {
     extend: {
@@ -19,7 +19,5 @@ module.exports = {
       }
     },
   },
-  plugins: [
-    require("flowbite/plugin")
-  ],
+  plugins: [require('tw-elements/dist/plugin')],
 }

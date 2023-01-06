@@ -7,3 +7,12 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+@layer components {
+  .btn-principal {
+    @apply bg-primarycolor hover:bg-terciaryColor text-white font-Lexend font-medium text-base rounded;
+  }
+  .estilo-paragrafo {
+    @apply font-Lexend text-base font-light;
+  }
+}
+
