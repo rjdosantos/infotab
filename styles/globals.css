@@ -12,7 +12,7 @@ body {
     @apply bg-primarycolor hover:bg-terciaryColor text-white font-Lexend font-medium text-base rounded;
   }
   .estilo-paragrafo {
-    @apply font-Lexend text-base font-light;
+    @apply font-Lexend font-light;
   }
 }
 

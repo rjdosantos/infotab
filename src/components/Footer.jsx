@@ -2,8 +2,8 @@ function Footer() {
   return (
     <>
     <footer className="bg-secondaryColor">
-      <div className="grid gap-4 grid-cols-3 py-16">
-        <div className="flex gap-1 items-center justify-end">
+      <div className="grid gap-4 grid-cols-none sm:grid-cols-3 p-16">
+        <div className="flex flex-col sm:flex-row gap-1 items-center justify-end">
           <div><img srcSet="icon-location.svg" alt="" /></div>
           <span className="estilo-paragrafo text-quartenaryColor">Rua logo ali - <br />Rio do sul/SC</span>
         </div>
@@ -17,14 +17,14 @@ function Footer() {
             <p className="estilo-paragrafo text-quartenaryColor">infotab@gmail.com</p>
           </div>
         </div>
-        <div className="flex gap-2 items-center">
+        <div className="flex justify-center gap-2 items-center">
           <div><a href="#"><img srcSet="youtube.svg" alt="facebook" /></a></div>
           <div><a href="#"><img srcSet="instagram.svg" alt="facebook" /></a></div>
           <div><a href="#"><img srcSet="facebook.svg" alt="facebook" /></a></div>
         </div>
       </div>
       <div className="bg-primarycolor text-white">
-        <div className="container mx-auto flex justify-between font-Lexend font-light text-sm py-6">
+        <div className="container mx-auto flex flex-col sm:flex-row justify-between font-Lexend font-light text-xs sm:text-sm md:text-base text-center sm:text-left p-6">
           <p className="estilo-paragrafo">Todos os direitos reservados - 2023 InfoTab</p>
           <p className="estilo-paragrafo">Desenvolvido por <a href="#" className="font-light underline underline-offset-4">@Fernando</a></p> 
         </div>
